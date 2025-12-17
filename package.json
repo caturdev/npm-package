@@ -1,0 +1,38 @@
+{
+  "name": "demo-package",
+  "version": "1.0.0",
+  "description": "how to make and publish a NPM package with typescript",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/caturdev/npm-package.git"
+  },
+  "keywords": [
+    "npm",
+    "demo",
+    "package"
+  ],
+  "author": "catur",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/caturdev/npm-package/issues"
+  },
+  "homepage": "https://github.com/caturdev/npm-package#readme",
+  "devDependencies": {
+    "@types/jest": "^30.0.0",
+    "jest": "^30.2.0",
+    "ts-jest": "^29.4.6",
+    "ts-node": "^10.9.2",
+    "tsup": "^8.5.1",
+    "typescript": "^5.9.3"
+  }
+}
