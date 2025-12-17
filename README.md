@@ -144,7 +144,7 @@ or
 npm install -D tsup
 ```
 
-After installing tsup, create `tsup.config.json` and configure it as follows
+After installing tsup, create `tsup.config.ts` and configure it as follows
 
 ``` typescript
 import { defineConfig } from "tsup";
