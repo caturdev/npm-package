@@ -30,13 +30,13 @@ In this section we will learn how to set up Typescript in your project
 after creating the `package.json` file, run the following command
 
 ``` bash
-npm install --save-dev typescript
+npm install --save-dev typescript ts-node
 ```
 
 or
 
 ``` bash
-npm install -D typescript
+npm install -D typescript ts-node
 ```
 
 ### Setup tsconfig.json
