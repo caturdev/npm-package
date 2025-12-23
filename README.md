@@ -264,6 +264,10 @@ npm login
 we need username, password, email, and OTP to login in our local machine. After we login in our local machine, we can publish our package to NPM registry. To publish our package to NPM registry, run the following command
 
 ``` bash
+# public scope
+npm publish --access public
+
+# private scope
 npm publish
 ```
 
